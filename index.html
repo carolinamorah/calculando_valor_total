@@ -26,16 +26,16 @@
                     <p class="price text-light">Precio: 400.000</p>
                 </div>
                 <button class="boton text-light" type="submit" onclick="
-                    inputCantidad = document.querySelector('#cantidad')
-                    cantidad = document.querySelector('p #parrafoCantidad')
-                    valorCantidad = inputCantidad.value
-                    cantidad.innerHTML = valorCantidad
-                    inputColor = document.querySelector('#color')
-                    color = document.querySelector('p #parrafoColor')
-                    color.style.backgroundColor = inputColor.value
-                    total = document.querySelector('#total')
-                    valorTotal = 400000 * valorCantidad
-                    total.innerHTML = valorTotal
+                    inputCantidad = document.querySelector('#cantidad');
+                    cantidad = document.querySelector('p #parrafoCantidad');
+                    valorCantidad = inputCantidad.value;
+                    cantidad.innerHTML = valorCantidad;
+                    inputColor = document.querySelector('#color');
+                    color = document.querySelector('p #parrafoColor');
+                    color.style.backgroundColor = inputColor.value;
+                    total = document.querySelector('#total');
+                    valorTotal = 400000 * valorCantidad;
+                    total.innerHTML = valorTotal.toLocaleString('es-CL')
                     ">Calcular Total</button>
             </div>
         </div>
