@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5em;
+}
+.flex-container .card {
+    background-color: #7ba238;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-title {
+    font-size: 0.87em;
+}
+button {
+    background-color: goldenrod;
+}
+
+.boton {
+    width: 120px;
+    border-radius: 5px;
+    margin: auto;
+}
+button:hover {
+    background-color: rgb(216, 196, 84);
+}
+.flex-item p {
+    line-height: 8px;
+}
+#parrafoColor {
+    margin-left: 10px;
+    padding: 4px 14px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+
