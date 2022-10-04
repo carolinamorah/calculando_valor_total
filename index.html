@@ -30,9 +30,9 @@
                     cantidad = document.querySelector('p #parrafoCantidad');
                     valorCantidad = inputCantidad.value;
                     cantidad.innerHTML = valorCantidad;
-                    inputColor = document.querySelector('#color');
+                    inputColor = document.querySelector('#color').value;
                     color = document.querySelector('p #parrafoColor');
-                    color.style.backgroundColor = inputColor.value;
+                    color.style.backgroundColor = inputColor;
                     total = document.querySelector('#total');
                     valorTotal = 400000 * valorCantidad;
                     total.innerHTML = valorTotal.toLocaleString('es-CL')
